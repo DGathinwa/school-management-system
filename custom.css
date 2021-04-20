@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Playfair+Display&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
+}
+
+p{
+    margin-bottom: 4px;
+}
+
+.bg-dark{
+    background-color: #fbf2e1 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #b21f2d;
+}
+
+.dark-background{
+    background: url("data:image/svg+xml,%3Csvg width='40' height='12' viewBox='0 0 40 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 6.172L6.172 0h5.656L0 11.828V6.172zm40 5.656L28.172 0h5.656L40 6.172v5.656zM6.172 12l12-12h3.656l12 12h-5.656L20 3.828 11.828 12H6.172zm12 0L20 10.172 21.828 12h-3.656z' fill='%23ffffff' fill-opacity='0.06' fill-rule='evenodd'/%3E%3C/svg%3E") #50423e;
+}
+
+.white-background{
+    background: url("data:image/svg+xml,%3Csvg width='40' height='12' viewBox='0 0 40 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 6.172L6.172 0h5.656L0 11.828V6.172zm40 5.656L28.172 0h5.656L40 6.172v5.656zM6.172 12l12-12h3.656l12 12h-5.656L20 3.828 11.828 12H6.172zm12 0L20 10.172 21.828 12h-3.656z' fill='%23000000' fill-opacity='0.01' fill-rule='evenodd'/%3E%3C/svg%3E") #fff;
+}
+
+.sub-heading {
+    color: #f49731;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+}
+
+footer{
+    background-color: #e9ecef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* Adding a video */
+#content-video {
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 0px 0px 0px;
+}
+
+label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 0px 0px 8px 0px;
+}
+
+input {
+    display: block;
+    height: 34px;
+    margin: 0;
+    padding: 0px 8px;
+    font-size: 12px;
+}
+
+input, textarea {
+    width: 400px;
+    border: 1px solid #bdbdbd;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.full-fields {
+    padding: 0px 0px 18px 0px;
+}
+
+textarea {
+    height: 140px;
+    padding: 8px;
+}
+
+.submit-btn {
+    width: 120px;
+    height: 50px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 20px;
+    margin: 20px 8px 8px 0px;
+}
+
+.submit-btn:hover {
+    transition: 0.25s ease-in;
+    color: #000000;
+    background-color: #ffffff;
+}
